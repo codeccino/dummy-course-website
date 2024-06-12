@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>courses</title>
+    <style>
+        /* Courses Page */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.courses {
+    text-align: center;
+    padding: 40px;
+}
+
+.courses h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #1A76D1;
+    letter-spacing: 2px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.course {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.course img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.course h3 {
+    margin: 15px 0 10px;
+}
+
+.course p {
+    line-height: 1.6;
+}
+
+.course .price {
+    font-size: 18px;
+    color: #1A76D1;
+    font-weight: bold;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</head>
+<body>
+    <div class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-grid">
+            <div class="course">
+                <img src="course.jfif" alt="Course 1">
+                <h3>Course Name 1</h3>
+                <p>Description for course 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$100</p>
+            </div>
+            <div class="course">
+                <img src="course.jfif" alt="Course 2">
+                <h3>Course Name 2</h3>
+                <p>Description for course 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$150</p>
+            </div>
+            <div class="course">
+                <img src="course.jfif" alt="Course 3">
+                <h3>Course Name 3</h3>
+                <p>Description for course 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$200</p>
+            </div>
+            <div class="course">
+                <img src="course.jfif" alt="Course 4">
+                <h3>Course Name 4</h3>
+                <p>Description for course 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$250</p>
+            </div>
+            <div class="course">
+                <img src="course.jfif" alt="Course 4">
+                <h3>Course Name 4</h3>
+                <p>Description for course 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$250</p>
+            </div>
+            <div class="course">
+                <img src="course.jfif" alt="Course 4">
+                <h3>Course Name 4</h3>
+                <p>Description for course 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$250</p>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
