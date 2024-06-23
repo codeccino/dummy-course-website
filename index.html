@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="border"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="logo1.jpg" alt="logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="register-button"><a href="register.html">Register</a></button>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+
+
+    
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="bio">
+                        <h3>Jordan Westbrook</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti cum praesentium voluptate assumenda architecto illum voluptatum fugit a aliquid voluptas non, ut pariatur nesciunt iste? Ea quidem ex necessitatibus.</p>
+                    </div>
+                    <div class="image">
+                        <img src="Person1.jpg" alt="Person 1">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="bio">
+                        <h3>Avery Sinclair</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti cum praesentium voluptate assumenda architecto illum voluptatum fugit a aliquid voluptas non, ut pariatur nesciunt iste? Ea quidem ex necessitatibus.</p>
+                    </div>
+                    <div class="image">
+                        <img src="Person2.jpg" alt="Person 2">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <div class="bio">
+                        <h3>Quinn Parker</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci deleniti cum praesentium voluptate assumenda architecto illum voluptatum fugit a aliquid voluptas non, ut pariatur nesciunt iste? Ea quidem ex necessitatibus.</p>
+                    </div>
+                    <div class="image">
+                        <img src="Person3.jpg" alt="Person 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <div class="achievements">
+        <h2>Our Achievements</h2>
+        <div class="achievement-grid">
+            <div class="achievement visible">
+                <h3>Achievement 1</h3>
+                <p>Description for achievement 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="achievement visible">
+                <h3>Achievement 2</h3>
+                <p>Description for achievement 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="achievement visible">
+                <h3>Achievement 3</h3>
+                <p>Description for achievement 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="achievement ">
+                <h3>Achievement 4</h3>
+                <p>Description for achievement 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="achievement full-width">
+                <h3>Achievement 5</h3>
+                <p>Description for achievement 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>We are a dedicated team focused on achieving excellence in every project we undertake. Our goal is to create innovative solutions that drive success for our clients.</p>
+        </div>
+        <div class="footer-section social">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; 2024 Your Company. All rights reserved.
+    </div>
+</footer>
+
+
+
+    
+    
+    <script src="scripts.js"></script>
+    
+
+</body>
+</html>
